@@ -1,0 +1,40 @@
+<%- include('parts/header')%>
+<%- include('parts/navbar')%>
+
+
+<div class="container text-center">
+    <h3>
+       Login
+    </h3>
+<form action="/login" method="post" class="mb-3">
+
+   <input type="email"
+    class="form-control" name="email" id="" aria-describedby="helpId" placeholder="E-mail">
+    <input type="password"
+    class="form-control" name="password" id="" aria-describedby="helpId" placeholder="password">
+      <input type="submit"
+    class="btn btn-primary" value='Create Account' >
+
+ 
+</form>
+
+<div>
+   Don't have account ? <a href="/signup">Create Account</a>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include('parts/footer')%>
+
